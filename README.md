@@ -1,20 +1,33 @@
-# flutter_app_my_cat
+# Flutter APP - APP CAT BREEDS
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-
+This is a mobile application, which consumes an API and shows its response (Cat Breeds) in cards, was implemented an initial screen as Splash, then a card screen with the breeds obtained, there we can do a search for the name of the breed and finally a screen to see some details of the specified cat.
 
 ## Config Splash
-flutter pub run flutter_native_splash:create
+There is a yaml file to configure splash screen, supported by https://pub.dev/packages/flutter_native_splash.
+
+Note: Images generate by https://undraw.co/illustrations.
+
+Run after changes properties in yaml file:
+```
+ flutter pub run flutter_native_splash:create
+```
+
+### Folder Structure
+
+Here is the folder structure we have been using in this project
+
+```
+lib/
+|- main.dart
+  |- app/
+  |- data/
+  |- domain/
+  |- ui/
+```
+
+## UI
+
+![TheApiCat](https://github.com/user-attachments/assets/250f1ef2-331c-499f-b6d5-3237aeb32fa6)
+![TheApiCatOne](https://github.com/user-attachments/assets/01d46023-a2f6-4479-afae-e64fcf1645bd)
+
+Made with ❤ by JulianJaramillo
