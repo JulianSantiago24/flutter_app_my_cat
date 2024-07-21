@@ -1,0 +1,11 @@
+flutter_native_splash:
+  color: "#FFFFFF"
+  image: assets/images/welcome_cats_web.png
+
+  android_12:
+    color: "#FFFFFF"
+    image: assets/images/welcome_cats_mobile.png
+
+  android: true
+  ios: true
+  web: true
